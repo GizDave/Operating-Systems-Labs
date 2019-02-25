@@ -1,0 +1,13 @@
+errors to check:
+ If a symbol is multiply dened, print an error message and use the value given in the last denition. (Written)
+ If a symbol is used but not dened, print an error message and use the value 111. (Written)
+ If a symbol is dened but not used, print a warning message and continue. (Written)
+ If an absolute address exceeds the size of the machine, print an error message and use the largest legal value. (Writte???)
+ If multiple symbols are listed as used in the same instruction, print an error message and ignore all but the last usage given. (Written)
+ If an address appearing in a denition exceeds the size of the module, print an error message and treat the address given as the last word in the module. (Written)
+
+INCLUDE A README FILE
+
+Questions:
+1. input-8 and 9 have address 3456. Shouldn't that be exceeding machine size. There is no error thrown in the output files.
+2. How are my outputs?
